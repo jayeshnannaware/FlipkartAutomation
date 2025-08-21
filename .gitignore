@@ -1,0 +1,27 @@
+# Build & IDE
+target/
+.idea/
+*.iml
+*.class
+
+# Test outputs & reports
+test-output/
+reports/
+report/
+extent*/*
+allure-results/
+allure-report/
+surefire-reports/
+screenshots/
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / misc (agar kabhi add ho jaye)
+node_modules/
+
+# Maven wrapper cache
+.mvn/wrapper/maven-wrapper.jar
